@@ -115,7 +115,7 @@ function VideoPlayer({ videoList }) {
         ref={videoRef}
         controls
         style={{
-          width: '800px',
+          width: '500px',
           height: '400px',
           marginTop: '20px',
           border: '1px solid #ccc',

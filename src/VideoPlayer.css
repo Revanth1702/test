@@ -1,0 +1,35 @@
+.highlighted {
+    background-color: #eee !important;
+    color: #000dff !important;
+  }
+  
+  .VideoPlayer {
+    font-family: 'Mulish', sans-serif;
+  }
+  
+  .VideoPlayer h2 {
+    font-family: 'Mulish', sans-serif;
+  }
+  
+  .VideoPlayer a {
+    font-family: 'Mulish', sans-serif;
+  }
+  .ThumbnailsContainer {
+    max-height: 420px; /* Set the desired height of the thumbnails container */
+    overflow-y: auto; /* Enable vertical scrolling when the thumbnails exceed the container height */
+    margin-left: 20px; /* Adjust the margin as needed */
+    scrollbar-color: #6969dd #e0e0e0;
+    scrollbar-width: thin;
+    width: 250px;
+  }
+  .ThumbnailsContainer::-webkit-scrollbar {
+    width: 10px;
+  }
+  .ThumbnailsContainer::-webkit-scrollbar-track{
+    background-color: #e4e4e4;
+    border-radius: 100px;
+  }
+  .ThumbnailsContainer::-webkit-scrollbar-thumb {
+    background-color: #0b0a0a;
+    border-radius: 100px;
+  }
